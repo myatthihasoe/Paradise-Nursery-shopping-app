@@ -1,19 +1,21 @@
-function AboutUs() {
+export default function AboutUs() {
   return (
-    <section className="about-section" id="about">
-      <div className="about-mark" aria-hidden="true">✿</div>
-      <div className="about-copy">
-        <p className="eyebrow">Rooted in good things</p>
-        <h2>Plants make a place feel like home.</h2>
-        <p>
-          We believe caring for a plant should feel joyful, not complicated.
-          That’s why we choose resilient favorites, grow them with care, and
-          share simple guidance to help them thrive in your space.
-        </p>
-        <a href="#plants" className="text-link">Find your new favorite <span aria-hidden="true">→</span></a>
-      </div>
-    </section>
-  )
-}
+    <div className="about-us">
+      <span className="eyebrow">A little more green, every day</span>
+      <h2>Welcome to Paradise Nursery</h2>
 
-export default AboutUs
+      <p>
+        At Paradise Nursery, we believe every home deserves a touch of nature.
+        We offer carefully selected houseplants that bring beauty, calm, and
+        fresh energy into your everyday spaces.
+      </p>
+
+      <p>
+        Whether you are caring for your first plant or growing an indoor
+        collection, our range includes easy-care favorites, leafy statement
+        plants, and plants for bright spaces. Find the right plant for your
+        home and enjoy the journey of helping it grow.
+      </p>
+    </div>
+  );
+}
